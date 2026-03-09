@@ -1,0 +1,42 @@
+# Devourer
+
+> Color-to-component generator. Transforms color palettes into production-ready, themed UI components. Supports React (TypeScript), Vue 3 (Composition API), and HTML+CSS. Includes variants, states, accessibility, and type safety.
+
+## What it does
+
+Accepts color palettes (from Hexed or any source) and generates complete themed UI components: buttons, inputs, cards, modals, navigation, tables, badges, and more. Each component includes multiple variants (primary, secondary, outline, ghost), interactive states (hover, active, focus, disabled), size options (xs-xl), WCAG compliance, and TypeScript types.
+
+## Usage
+
+```python
+from scripts.color_utils import generate_state_variants, get_contrast_ratio
+
+# Generate hover/active/disabled states from a base color
+primary_variants = generate_state_variants('#3B82F6')
+
+# Check accessibility
+contrast = get_contrast_ratio('#3B82F6', '#FFFFFF')
+```
+
+## Component categories
+
+- Interactive: Button, Input, Select, Checkbox, Radio, Switch, Slider
+- Container: Card, Modal, Panel, Alert, Toast
+- Navigation: NavBar, Tabs, Breadcrumb, Pagination
+- Data Display: Table, Badge, Avatar, Progress
+
+## Frameworks
+
+- React (TypeScript): Functional components, hooks, ref forwarding, proper event handler typing
+- Vue 3 (Composition API): `<script setup>`, TypeScript interfaces, emits/props typing
+- HTML + CSS: Semantic HTML, CSS custom properties, BEM naming
+
+## Part of a suite
+
+Hexed (colors) + Specimen (typography) + Gridlock (layout) + Eyes Peeled (accessibility) + Devourer (components)
+
+Devourer is the final step: it consumes outputs from all other skills and produces production-ready components.
+
+## Author
+
+Created by Heathen
