@@ -4,11 +4,10 @@
   <br/>
   <br/>
   
-  **Color-to-Component Generator for Claude Skills**
+  **Color-to-Component Generator**
   
   [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
   [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)]()
-  [![Claude Skills](https://img.shields.io/badge/Claude-Skills-purple)]()
   
 </div>
 
@@ -16,7 +15,7 @@
 
 # Devourer
 
-Devourer is a Claude skill that transforms color palettes into production-ready UI components.
+Devourer transforms color palettes into production-ready UI components.
 
 ## What It Does
 
@@ -32,16 +31,7 @@ Devourer is a Claude skill that transforms color palettes into production-ready 
 
 ## Installation
 
-### For Claude Users
-
-Install Devourer from the [Claude Skills marketplace](https://claude.ai):
-1. Go to Settings → Skills
-2. Search for "Devourer"
-3. Click "Add Skill"
-
-See [INSTALLATION.md](INSTALLATION.md) for detailed instructions.
-
-### For Developers
+### Getting Started
 
 To use the color utilities locally:
 
@@ -52,7 +42,7 @@ python scripts/color_utils.py variants "#3B82F6"
 
 ## Files
 
-- `SKILL.md` - Instructions for Claude on how to use the skill
+- `SKILL.md` - Skill instructions and usage guide
 - `scripts/color_utils.py` - Color variant generation and WCAG contrast checking
 - `references/component_patterns.md` - Detailed React/Vue implementation patterns
 - `assets/theme-template.css` - CSS custom properties template

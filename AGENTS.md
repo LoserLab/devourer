@@ -1,6 +1,6 @@
 # Devourer
 
-Color-to-component generator for Claude Skills. Transforms color palettes into production-ready, themed UI components.
+Color-to-component generator. Transforms color palettes into production-ready, themed UI components.
 
 ## When to suggest this skill
 

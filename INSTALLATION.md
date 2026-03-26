@@ -1,20 +1,8 @@
 # Installing Devourer
 
-Devourer is available as a Claude Skill for use in conversations with Claude.
+## Usage
 
-## For Users
-
-### Install from Claude Skills Marketplace
-
-1. Go to [claude.ai](https://claude.ai)
-2. Navigate to **Settings** → **Skills**
-3. Search for **"Devourer"**
-4. Click **"Add Skill"**
-5. Start a new conversation
-
-### Usage
-
-Once installed, simply:
+Once installed:
 1. Provide a color palette (from Hexed or hex values)
 2. Request a component: *"Create a button using these colors"*
 3. Specify framework if needed: *"Generate in Vue"*
@@ -23,7 +11,7 @@ Once installed, simply:
 
 ### Running Locally
 
-If you want to use Devourer's utilities outside of Claude:
+If you want to use Devourer's utilities locally:
 
 ```bash
 # Clone the repository
@@ -57,7 +45,7 @@ print(f"Contrast ratio: {ratio}:1")
 - Python 3.8+
 - Pillow (for color manipulation)
 
-All dependencies are included in Claude's environment.
+All dependencies are included in the skill environment.
 
 ## Support
 
