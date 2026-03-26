@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/devourer_logo.svg" alt="Devourer" width="200"/>
+  <img src="https://github.com/user-attachments/assets/fb170de3-afbe-4411-ae33-f20e70f323a0" alt="Devourer" width="200"/>
   
   <br/>
   <br/>
